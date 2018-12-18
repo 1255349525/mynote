@@ -1,6 +1,51 @@
 <html>
-  <head></head>
+  <head>
+      <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  </head>
   <body>
+    <div class="row masonry">
+
+
+    <div class="col-xs-12 col-sm-6 col-md-6 item">
+    <div class="thumbnail">
     <img src="https://gitee.com/huangmingonmayun/WenDangBiJi/attach_files/download?i=192968&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F05%2FF1%2FPaAvDFwXRYGAHV_4AAF2t9Oxn9w077.jpg%3Ftoken%3D877915e8a1a827e819fd6c3948bcfc57%26ts%3D1545125121%26attname%3D1c5f4df8-9e87-4b5c-b935-8931eb643971_size388_w1024_h683.jpg" />
+    </div>
+    </div>
+
+
+    <div class="col-xs-12 col-sm-6 col-md-6 item">
+    <div class="thumbnail">
+    <div>
+    <img src="https://gitee.com/huangmingonmayun/WenDangBiJi/attach_files/download?i=192968&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F05%2FF1%2FPaAvDFwXRYGAHV_4AAF2t9Oxn9w077.jpg%3Ftoken%3D877915e8a1a827e819fd6c3948bcfc57%26ts%3D1545125121%26attname%3D1c5f4df8-9e87-4b5c-b935-8931eb643971_size388_w1024_h683.jpg" />
+    </div>
+    </div>
+
+
+    ..........(省略n多图文展示)
+
+
+    </div>
+      
+    <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://gitee.com/huangmingonmayun/WenDangBiJi/attach_files/download?i=193351&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F05%2FF5%2FPaAvDFwYs4mAOqWFAAHOU_CIaUg6304.js%3Ftoken%3D06919fa12941e9e492f2629f01401aae%26ts%3D1545125579%26attname%3Dmp.mansory.js" ></script>
+    <script src="https://cdn.bootcss.com/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
+    <!--瀑布流-->
+    <script>
+      <span style="white-space:pre"></span>
+      $('.masonry').imagesLoaded(function() {
+        $('.masonry').masonry({
+        itemSelector: '.item'
+        });
+      });
+    </script>
+
+    
   </body>
 </html>
